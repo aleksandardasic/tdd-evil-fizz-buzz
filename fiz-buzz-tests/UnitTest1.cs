@@ -9,6 +9,7 @@ namespace fiz_buzz_tests
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }
