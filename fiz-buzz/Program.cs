@@ -23,6 +23,8 @@ namespace fiz_buzz
             var formatedNumberList = new OutputFormatter().Format(numberList);
 
             Console.Write(formatedNumberList);
+
+            Console.ReadLine();
         }
     }
 }
