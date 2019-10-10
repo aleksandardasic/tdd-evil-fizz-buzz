@@ -8,7 +8,7 @@ namespace fiz_buzz
 {
     public class FizzBuzzSwap: ISwap
     {
-        public IList<string> Swap(IList<string> list)
+        public IList<string> swap(IList<string> list)
         {
             int number;
 
