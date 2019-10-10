@@ -2,10 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/fiz-buzz/v16
 /packages
-/fiz-buzz/bin/Debug
-/fiz-buzz/obj/Debug
-/fiz-buzz-tests/bin/Debug
-/fiz-buzz-tests/obj/Debug
+/fiz-buzz/bin
+/fiz-buzz/obj
+/fiz-buzz-tests/bin
+/fiz-buzz-tests/obj
 .vs/
