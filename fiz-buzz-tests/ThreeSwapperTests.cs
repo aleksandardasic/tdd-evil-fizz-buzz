@@ -1,0 +1,25 @@
+﻿using System.Collections.Generic;
+using System.Linq;
+using fiz_buzz;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace fiz_buzz_tests
+{
+    [TestClass]
+    public class ThreeSwapperTests
+    {
+        [TestMethod]
+        public void ReplaceWorks()
+        {
+            List<string> data = new List<string>()
+            {
+                "3"
+            };
+
+            var swapper = new ThreeSwapper();
+            var result = swapper.swap(data);
+
+            Assert.IsTrue(result.First() == "Fizz");
+        }
+    }
+}
