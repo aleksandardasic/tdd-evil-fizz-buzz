@@ -9,7 +9,7 @@ namespace fiz_buzz_tests
     public class ThreeSwapperTests
     {
         [TestMethod]
-        public void ReplaceWorks()
+        public void FirstElementIsThreeAndIsReplaced()
         {
             List<string> data = new List<string>()
             {
@@ -20,6 +20,21 @@ namespace fiz_buzz_tests
             var result = swapper.swap(data);
 
             Assert.IsTrue(result.First() == "Fizz");
+        }
+
+        [TestMethod]
+        public void OneElementDivisibleOneIsNot()
+        {
+            List<string> data = new List<string>()
+            {
+                "3",
+                "4"
+            };
+
+            var swapper = new ThreeSwapper();
+            var result = swapper.swap(data);
+
+            Assert.IsTrue(result[0] == "Fizz" && result[1] == "4");
         }
     }
 }
