@@ -31,3 +31,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: PublishPipelineArtifact@3
+  inputs:
+    path: $(System.DefaultWorkingDirectory)/fiz-buzz/bin/Release
+    artifact: FizBuzzApp
