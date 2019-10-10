@@ -8,3 +8,8 @@
 /fiz-buzz/obj/Debug
 /fiz-buzz-tests/bin/Debug
 /fiz-buzz-tests/obj/Debug
+/.vs/fiz-buzz/v15/Server/sqlite3/storage.ide-wal
+/.vs/fiz-buzz/v15/Server/sqlite3/storage.ide-shm
+/.vs/fiz-buzz/v15/Server/sqlite3/storage.ide
+/.vs/fiz-buzz/v15/Server/sqlite3/db.lock
+/.vs/fiz-buzz/v15/.suo
