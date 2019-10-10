@@ -49,6 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuzzUnitTest.cs" />
     <Compile Include="ListGeneratorTests.cs" />
     <Compile Include="OutputFormatterTest.cs" />
     <Compile Include="ThreeSwapperTests.cs" />

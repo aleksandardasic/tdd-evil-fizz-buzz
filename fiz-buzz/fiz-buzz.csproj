@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buzz.cs" />
     <Compile Include="ISwap.cs" />
     <Compile Include="FizzBuzzSwap.cs" />
     <Compile Include="ListGenerator.cs" />
